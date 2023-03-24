@@ -1,0 +1,33 @@
+.gallery{
+    display: flex;
+    width:100%;
+    
+}
+.gallery img{
+    justify-content: space-around;
+    width:280px;
+    margin-left: 20px;
+    height:100vh;
+}
+.gallery > :nth-child(1){
+    margin-top:90px;
+    height: 250px;
+}
+.gallery > :nth-child(2){
+    margin-top:40px;
+    height: 350px;
+}
+.gallery > :nth-child(3){
+    margin-top:10px;
+    height: 340px;
+    margin-bottom: 20px;
+}
+.gallery > :nth-child(4){
+    margin-top:40px;
+    height: 350px;
+}
+.images-container{
+    width: 200px;
+    display: flex;
+    margin-left: 10px;
+}

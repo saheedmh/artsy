@@ -1,0 +1,130 @@
+.feature-product2{
+    margin:20px;
+    margin-top:20px;
+    
+    
+    
+}
+.feature-product2 > h1{
+
+    
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 65px;
+    text-align: center  ;
+    margin:0 auto;
+    
+    }
+    
+
+
+.feature-container2{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.feature-container2::after{
+   content: "";
+    position: absolute;
+    border-bottom: 2px solid black;
+    bottom:0;
+    left: 0px;
+    width:97%;
+}
+.feature-container2 > :nth-child(-n+2){
+    justify-content: space-around;
+    
+}
+.feature-container2 > img{
+    width: 500px;
+    height: 300px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+.text-container2{
+    position: relative;
+    width: 45%;
+    
+
+}
+.text-container2 > h2{
+    width: 360px;
+    font-size:30px;
+    font-weight: 500px;
+    height: 40px;
+    line-height: 20px;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+.text-container2 > p{
+    width: 400px;
+    padding: 20px;
+    font-size: 16px;
+    text-align: justify;
+    height: 80px;
+    line-height: 20px;
+    margin-right: 20px;
+    margin-top:-20px;
+
+}
+.images-container2{
+    margin-left: 10px;
+}
+.images-container2 > :nth-child(1){
+    position:relative;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.images-container2 > :nth-child(2){
+    position: relative;
+    right: 15px;
+    
+
+}
+.images-container2 > :nth-child(3){
+    position: relative;
+    right: 40px;
+    background-color: none;
+}
+.images-container2 > :nth-child(4){
+    position: relative;
+    right: 60px;
+}
+.images-container2 > :nth-child(5){
+    position: relative;
+    right: 80px;
+}
+
+.images-container2 > p{
+    position:absolute;
+    left: 200px;
+    bottom: 50px;
+    
+    width: 200px;
+    
+}
+.images-container2 >  :nth-child(7){
+    height: 20px;
+    padding: 10px;
+      border :1px solid black;
+      border-radius: 100%; 
+    margin-left: 50px;
+    position:absolute;
+    left:350px;
+    top:210px;
+    
+}
+.feature-container2 > .status{
+    
+    margin-top:30px;
+    background-color: red;
+}
+.images-container2 > .para{
+    margin-bottom: 50px;
+
+}

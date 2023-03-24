@@ -1,0 +1,123 @@
+.feature-product{
+    margin:10px;
+    
+    
+}
+.feature-product > h1{
+
+
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 65px;
+margin-left: 20px;
+
+}
+
+.feature-container{
+    display: flex;
+    position: relative;
+    width: 100%;
+    
+}
+.feature-container > img{
+    width: 500px;
+}
+.feature-container::before{
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid black;
+    top:0;
+    left: 20px;
+    width:90%;
+}
+.feature-container::after{
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid black;
+    bottom:0;
+    left: 20px;
+    width:90%;
+}
+.feature-container > :nth-child(-n+2){
+    justify-content: space-around;
+    margin:20px;
+}
+.text-container{
+  position: relative;  
+    
+    
+}
+.text-container > h2{
+    width: 360px;
+    font-size:30px;
+    font-weight: 500px;
+    height: 40px;
+    line-height: 20px;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+.text-container > p{
+    width: 400px;
+    padding: 20px;
+    font-size: 16px;
+    text-align: justify;
+    height: 80px;
+    line-height: 20px;
+    margin-right: 20px;
+    margin-top:-20px;
+
+}
+
+.images-container{
+    
+    position:relative;
+    margin-left: 20px;
+}
+.images-container > :nth-child(1){
+    position:relative;
+    top:0;
+    left: 100px;
+    right: 100px;
+    bottom: 0;
+    
+    
+}
+.images-container > :nth-child(2){
+    position: relative;
+    right: 15px;
+    
+
+}
+.images-container > :nth-child(3){
+    position: relative;
+    right: 40px;
+    background-color: none;
+}
+.images-container > :nth-child(4){
+    position: relative;
+    right: 60px;
+}
+.images-container > :nth-child(5){
+    position: relative;
+    right: 80px;
+}
+.images-container > :nth-child(6){
+    position:absolute;
+    left:120px;
+    top:0px;
+    width: 200px;
+    margin-left: 100px;
+    
+    font-size:normal;
+}
+
+.images-container > :nth-child(7){
+    height: 20px;
+    position: relative;
+    top:15px;
+    left:50px;
+    margin-left: 150px;
+
+}
